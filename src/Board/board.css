@@ -1,0 +1,70 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px 1fr;
+    grid-template-areas: "Board-Header" "Board-Body";
+}
+  
+.Board-Header {
+    grid-area: Board-Header;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.Board-Body { 
+    grid-area: Board-Body;
+    background-color: #E5E5E5;
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+
+.Board-Body-Container {
+    width: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Container-HeaderText {
+    margin: 0;
+    display: inherit;
+    font-size: 40px;
+    color: #2B2829;
+    line-height: 49px;
+    font-weight: bold;
+    margin-bottom: 34px;
+}
+
+.Container-TabBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.TabBar-Tab-Active {
+    padding: 6px 24px 11px 24px;
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 149.37%;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-top: 2px solid #F50634;
+    box-sizing: border-box;
+}
+
+.TabBar-Tab {
+    padding: 8px 24px 11px 24px;
+    margin-right: 8px;
+    font-size: 12px;
+    line-height: 149.37%;
+    font-weight: bold;
+    color: #B9B9B9;
+}
+
+.Container-TabPane {
+    height: 568px;
+    background-color: #ffffff;
+    margin-bottom: 203px;
+}
