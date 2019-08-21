@@ -1,0 +1,70 @@
+.Search-Pane {
+    width: 100%;
+}
+
+.Search-Form-Group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.Search-Form-Label {
+    display: flex;
+    font-size: 14px;
+    line-height: 188.55%;
+    color: #2B2829;
+}
+
+.Search-Form-Control {
+    padding: 13px 16px 6px 16px; 
+    font-size: 14px;
+    line-height: 188.55%;
+    color: #777777;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    outline: none;
+}
+
+.Search-Form-Control:focus {
+    border: 1px solid #FAE29F;
+}
+
+.Search-Hints {
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.Search-Hints-Company-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 7px 19px 7px 19px;
+}
+
+.Search-Hints-Company-Card:hover {
+    background-color: #F8F8F8;
+    cursor: pointer;
+}
+
+.Search-Hints-Company-Name {
+    font-size: 14px;
+    line-height: 140%;
+    font-weight: bold;
+}
+
+.Search-Hints-Company-Inn {
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.Searsh-Hints-Company-City {
+    font-size: 12px;
+    line-height: 140%;
+}
+
+.Search-Hints-Company-Info {
+    display: flex;
+    flex-direction: row;
+}
