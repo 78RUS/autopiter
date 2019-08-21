@@ -43,17 +43,6 @@
     justify-content: flex-start;
 }
 
-.TabBar-Tab-Active {
-    padding: 6px 24px 11px 24px;
-    margin-right: 8px;
-    font-size: 12px;
-    line-height: 149.37%;
-    font-weight: bold;
-    background-color: #ffffff;
-    border-top: 2px solid #F50634;
-    box-sizing: border-box;
-}
-
 .TabBar-Tab {
     padding: 8px 24px 11px 24px;
     margin-right: 8px;
@@ -61,10 +50,19 @@
     line-height: 149.37%;
     font-weight: bold;
     color: #B9B9B9;
+    cursor: pointer;
+}
+
+.Active {
+    background-color: #ffffff;
+    border-top: 2px solid #F50634;
+    box-sizing: border-box;
+    color: #000000;
 }
 
 .Container-TabPane {
     height: 568px;
     background-color: #ffffff;
+    padding: 32px 24px 0 24px;
     margin-bottom: 203px;
 }
